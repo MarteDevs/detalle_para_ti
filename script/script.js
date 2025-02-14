@@ -29,7 +29,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     e.preventDefault();
     const anniversaryDate = document.getElementById("anniversaryDate").value;
     // Modifica aquí la fecha de tu aniversario - AAAA-MM-DD
-    if (anniversaryDate === "2024-12-24") {
+    if (anniversaryDate === "2023-12-24") {
         // Guardar la fecha de aniversario en localStorage
         localStorage.setItem("anniversaryDate", anniversaryDate);
         window.location.href = "dashboard.html"; // Redirige al dashboard
